@@ -1,0 +1,44 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+
+.table thead tr {
+  background-color: #f2f2f2;
+}
+
+.selected {
+  background-color: #f0f0f0;
+}
+
+.selected:hover {
+  background-color: #e0e0e0;
+}
+
+.table input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+}
+
+.table button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  font-family: inherit;
+  background-color: #00571c;
+}
+
+/* .table button:hover {
+  background-color: #f2f2f2;
+} */

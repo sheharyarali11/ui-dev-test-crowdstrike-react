@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('/src/assets/TitilliumWeb-Regular.ttf') format('truetype')
+}
+
+.container {
+  font-family: 'Titillium Web', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 18px;
+}
